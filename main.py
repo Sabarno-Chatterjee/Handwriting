@@ -5,7 +5,7 @@ from PIL import Image
 txt=open("C:\Users\Sabornyo\PycharmProjects\Handwriting\dummy.txt") # path of your text file
 
 #path of page(background)photo (I have used blank page)
-BG=Image.open(“myfont/bg.png”)
+BG=Image.open("background.png")
 sheet_width=BG.width
 gap, ht = 0, 0
 
